@@ -1,0 +1,35 @@
+-	Cambios funcionalidades equipos físicos 7.4.4 https://docs.fortinet.com/document/fortigate/7.4.0/new-features/519079/proxy-related-features-no-longer-supported-on-fortigate-2gb-ram-models-7-4-4
+-	VPNSSL deshabilitado en 7.6 equipos físicos de menos de 2GB https://fndn.fortinet.net/index.php?/fortinetbeta/releases/main/&do=download&releaseid=98&id=5352&csrfKey=b39f2fdf21c75437cb87f517b56d8250
+-	Migración VPNSSL a ZTNA https://docs.fortinet.com/document/fortigate/7.2.5/ssl-vpn-to-ztna-migration-guide/813800/deployment-overview
+-	Comportamiento IPPools y VIPs: https://community.fortinet.com/t5/FortiGate/Technical-Tip-IP-pool-and-virtual-IP-behavior-changes-in-FortiOS/ta-p/277823
+-	TENEMOS FORTIDEMO! https://fndn.fortinet.net/index.php?/one-click-demo/
+-	Problemas con cuentas Training/Partner/FNDN – emea_partners@fortinet.com
+-	Mantainer: Desde 7.2 en adelante no se puede utilizar el procedimiento de password recovery https://docs.fortinet.com/document/fortigate/7.2.0/new-features/482897/remove-maintainer-account-7-2-4
+-	FAZ en cloud o por device: https://fortixpert.blogspot.com/2020/12/forticloud-premium-subscription.html
+-	VPNSSL. En WebMode descontinuado – Apostar por ZTNA
+-	Problemas complejos con FortiClient equipo de Endpoint, LUCIA ANTA RODRIGUEZ lucia.antarodriguez@telefonica.com
+-	VirtualWire no permite asimetría de tráfico.
+-	Nuevo Programa de certificaciones https://helpdesk.training.fortinet.com/support/solutions/articles/73000615006-transitioning-from-nse-4-5-and-6-to-the-fcp-certifications
+-	Solicitud BUGS – Caso con soporte con ID de bugs – Si no obtenemos el nivel de detalle hgarciagil@fortinet.com ademercadocri@fortinet.com
+-	Balanceo en cloud necesita resolver Google API. Si se cae el firewall los DNSs no resuelven. Solución: Conectar los DNS con Google Private Access para que accedan a Google API sin atravesar el firewall (políticas)
+-	Logs FAZ FGT Cloud: Activar reliable para que se comunique por 514 TCP o modificar Security Group para que admita UDP
+-	Fallo estético FQDNs https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-FQDN-address-object-shows-unresolved-in-GUI/ta-p/278559
+-	Upgrade 7.4.x, tomar medida en versión previa del consumo RAM y contrastar (además de chequeos habituales)
+-	Herramienta iperf integrada en FortiGate - https://fortixpert.blogspot.com/2023/03/casos-de-uso-para-el-comando-diagnose.html y https://fortixpert.blogspot.com/2019/08/iperf-en-fortigate.html
+-	Migración licencias EMS
+-	Enlace correspondencia certificaciones https://helpdesk.training.fortinet.com/support/solutions/articles/73000625958-how-to-find-nse-certification-courses-on-the-fortinet-training-institute
+-	Información certificaciones https://www.fortinet.com/lat/training-certification
+-	FortiManager HA 7.0 no admite módulo de FAZ https://docs.fortinet.com/document/fortimanager/7.0.12/administration-guide/478954/enable-or-disable-fortianalyzer-features
+-	Casos de uso FortiSOAR https://www.youtube.com/@SOCCSE
+-	Debug autenticación/autorización https://community.fortinet.com/t5/FortiGate/Troubleshooting-Note-LDAP-FortiGate-error-message-Query-Failed/ta-p/189943
+-	Guía integración FortiEDR con AD https://docs.fortinet.com/document/fortiedr/6.2.0/active-directory-integration/58917/overview
+-	FAZ físico no permite cargar backup ni licencias si no accede a FortiGuard
+-	HA con FortiManager https://docs.fortinet.com/document/fortimanager/7.4.3/administration-guide/981082/configuring-geo-redundant-ha-with-vrrp-failover
+-	HA FortiManager en Azure, Templates y doc https://github.com/40net-cloud/fortinet-azure-solutions/tree/main/FortiManager/ha
+-	FortiClient IPsec VPN Pre-Logon Video (Overview + Configuration & Demo).
+-	FortiGate Cloud Automatic Upgrade https://community.fortinet.com/t5/FortiGate/Technical-Tip-How-to-disable-management-tunnel-to-FortiGate/ta-p/348924
+-	Problemas Upgrade Clúster serie G https://community.fortinet.com/t5/FortiGate/Technical-Tip-FortiGate-90G-91G-120G-121G-HA-cluster-unable-to/ta-p/370831
+-	ADJUNTO 14/02 – Transfer de equipos entre cuentas de FortiCloud sin ticket
+-	Política de registro https://www.fortinet.com/corporate/about-us/legal/service-contract-activation-grace-period-policy
+-	Problemas sonda Certificados en 7.2.11 – 7.4.5 https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-How-to-fix-SSL-connection-is-blocked-due-to/ta-p/362052 set cert-probe-failure allow
+-	Fasttracks! https://training.fortinet.com/local/staticpage/view.php?page=fast-track-workshop-abstracts
