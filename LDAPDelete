@@ -1,0 +1,13 @@
+1. Conexión AD vía LDAP:
+  - Python (LDAP3): https://ldap3.readthedocs.io/en/latest/ Buscar atributo UserAccountControl = AccountDisabled o Recorrer OU con usuarios de baja
+  - PowerShell Get-ADUser: https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-aduser?view=windowsserver2025-ps
+
+2. Notificación al FortiGate
+  - Via Webhook: Enviar en un webhook con variables https://docs.fortinet.com/document/fortigate/7.6.4/administration-guide/357883/incoming-webhook-quarantine-stitch
+  - Via API directa: /user/group/{name} Mover user a grupo deshabilitado
+
+3. Reporting
+  - Notificación vía automation-stitch de la lista actualizada
+
+4. Mejoras
+  - Usuarios en el grupo de eliminación purgar mensual
