@@ -32,4 +32,10 @@
 -	ADJUNTO 14/02 – Transfer de equipos entre cuentas de FortiCloud sin ticket
 -	Política de registro https://www.fortinet.com/corporate/about-us/legal/service-contract-activation-grace-period-policy
 -	Problemas sonda Certificados en 7.2.11 – 7.4.5 https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-How-to-fix-SSL-connection-is-blocked-due-to/ta-p/362052 set cert-probe-failure allow
+
 -	Fasttracks! https://training.fortinet.com/local/staticpage/view.php?page=fast-track-workshop-abstracts
+- Nuevo Laboratorio OT (the thinx, Oeste3 3ra planta):
+- ACME Certs con FortiADC http://docs.fortinet.com/document/fortiadc/8.0.0/cli-reference/320309/execute-certificate-local-import-automate
+- Nuevos Partner Roles https://docs.fortinet.com/document/forticloud/latest/identity-access-management-iam/600414/partner-roles
+  *  Si generas partner role, el sub-user se borra 2:40
+  *  Migrando a Partner role 3:45
