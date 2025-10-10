@@ -1,3 +1,6 @@
+•	FortiClient 7.4.4 sin Cliente Gratuito https://docs.fortinet.com/document/forticlient/7.4.4/windows-release-notes/683433/special-notices
+•	Gratis! Forticonverter de FGT a FGT https://docs.fortinet.com/document/forticonverter-service/25.1.0/online-help/724941/get-free-license-for-fortigate-conversion
+•	FortiGate 7.4.8 GA altamente recomendable. Relevante cantidad de bugs resueltos.
 -	Cambios funcionalidades equipos físicos 7.4.4 https://docs.fortinet.com/document/fortigate/7.4.0/new-features/519079/proxy-related-features-no-longer-supported-on-fortigate-2gb-ram-models-7-4-4
 -	VPNSSL deshabilitado en 7.6 equipos físicos de menos de 2GB https://fndn.fortinet.net/index.php?/fortinetbeta/releases/main/&do=download&releaseid=98&id=5352&csrfKey=b39f2fdf21c75437cb87f517b56d8250
 -	Migración VPNSSL a ZTNA https://docs.fortinet.com/document/fortigate/7.2.5/ssl-vpn-to-ztna-migration-guide/813800/deployment-overview
@@ -39,3 +42,4 @@
 - Nuevos Partner Roles https://docs.fortinet.com/document/forticloud/latest/identity-access-management-iam/600414/partner-roles
   *  Si generas partner role, el sub-user se borra 2:40
   *  Migrando a Partner role 3:45
+
