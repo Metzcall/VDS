@@ -1,4 +1,15 @@
-•	FortiClient 7.4.4 sin Cliente Gratuito https://docs.fortinet.com/document/forticlient/7.4.4/windows-release-notes/683433/special-notices
+AAG (Agentless Application Gateway) en FortiADC https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/219914/agentless-application-gateway-aag
+LDAP connectivity fails after upgrade to v7.4.9  https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-LDAP-connectivity-fails-with-error-This/ta-p/424025
+FortiCloud SSO Login Authentication Bypass (CVE-2025-59718) on 7.4.9  https://www.reddit.com/r/fortinet/s/AbfoN66Qdf  
+Conflictos con Cisco Ethertypes  https://docs.fortinet.com/document/fortigate/7.6.4/administration-guide/849059/ha-heartbeat-interface
+Backup-hbdev  https://docs.fortinet.com/document/fortigate/7.6.0/new-features/474848/backup-heartbeat-interface-mitigates-split-brain-scenarios
+Migración VPN SSL – IPSEC  https://docs.fortinet.com/document/fortigate/7.6.0/new-features/155142/migration-from-ssl-vpn-tunnel-mode-to-ipsec-vpn-7-6-3
+FortiClient 7.4.4 IKEv2 only  https://docs.fortinet.com/document/forticlient/7.4.4/administration-guide/269675/forticlient-feature-comparison
+VPNSSL to ZTNA Clientless  https://docs.fortinet.com/document/fortigate/7.6.0/new-features/545125/ztna-agentless-web-based-application-access-7-6-1
+Flash de Imagen para equipos sin licencia  https://community.fortinet.com/t5/FortiGate/Technical-Tip-Formatting-and-loading-FortiGate-firmware-image/ta-p/197617
+Enforcement FortiCloud Account  https://community.fortinet.com/t5/FortiGate/Technical-Tip-Enforcing-FortiCare-Registration-Starting-From-v7/ta-p/385926
+SKUs y vouchers de Training  https://training.fortinet.com/local/staticpage/view.php?page=purchasing_process
+LLM en el código del Malware  https://www.bleepingcomputer.com/news/security/google-warns-of-new-ai-powered-malware-families-deployed-in-the-wild/•	FortiClient 7.4.4 sin Cliente Gratuito https://docs.fortinet.com/document/forticlient/7.4.4/windows-release-notes/683433/special-notices
 •	Gratis! Forticonverter de FGT a FGT https://docs.fortinet.com/document/forticonverter-service/25.1.0/online-help/724941/get-free-license-for-fortigate-conversion
 •	FortiGate 7.4.8 GA altamente recomendable. Relevante cantidad de bugs resueltos.
 -	Cambios funcionalidades equipos físicos 7.4.4 https://docs.fortinet.com/document/fortigate/7.4.0/new-features/519079/proxy-related-features-no-longer-supported-on-fortigate-2gb-ram-models-7-4-4
