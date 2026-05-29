@@ -1,4 +1,11 @@
-AAG (Agentless Application Gateway) en FortiADC https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/219914/agentless-application-gateway-aag
+Debido a la renovación de certificados de los servidores FortiGuard Anycast que tendrá lugar el 14 de Abril, será necesario actualizar las versiones de FortiClient y FortiClient EMS a las versiones indicadas en los Customer Support Bulletins CSB-260303-1 y CSB-260320-1.
+Version 7.4.10, 7.6.5, 8.0.0, allow-traffic-redirect esta disabled por defecto  https://community.fortinet.com/fortigate-3/technical-tip-how-icmp-redirect-works-in-fortigate-168404
+Lanzamiento FortiOS 8.0 https://docs.fortinet.com/product/fortigate/8.0
+Vulnerabilidad crítica en FortiClient EMS versiones 7.4.5 y 7.4.6 https://fortiguard.fortinet.com/psirt/FG-IR-26-099,
+Ciclo de vida FortiOS 7.4 y 7.6 se extiende 1 año. Se ha extendido el ciclo de vida de ambas versiones en 1 año. Adicionalmente, FortiOS 7.6 se ha marcado como LTS (Long Term Support) con FortiCare Elite. FortiManager y FortiAnalyzer reflejan las fechas originales.
+Cambios modelo certificación NSE desde 15 Julio 2026  https://www.fortinet.com/nse-training-update
+Tentativa Q22026 FortiClient 8.0 para móviles con soporte IPSec
+FortiManager 7.4.8 errores en la BBDD – Pasar a 7.4.11 o 7.6.últimaAAG (Agentless Application Gateway) en FortiADC https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/219914/agentless-application-gateway-aag
 LDAP connectivity fails after upgrade to v7.4.9  https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-LDAP-connectivity-fails-with-error-This/ta-p/424025
 FortiCloud SSO Login Authentication Bypass (CVE-2025-59718) on 7.4.9  https://www.reddit.com/r/fortinet/s/AbfoN66Qdf  
 Conflictos con Cisco Ethertypes  https://docs.fortinet.com/document/fortigate/7.6.4/administration-guide/849059/ha-heartbeat-interface
