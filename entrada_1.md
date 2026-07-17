@@ -1,3 +1,38 @@
+Certificaciones activas/disponibles/futuras (con los cambios del 1 de Julio) https://training.fortinet.com/local/cert/my/roadmap.php
+Nueva herramienta de upgrade https://docs.fortinet.com/upgrade-tool/fortigate
+FortiOS 7.6.7 liberado el 2 de junio https://docs.fortinet.com/document/fortigate/7.6.7/fortios-release-notes/743723
+[Ojo con autoupgrade] FortiGuard DNS over TLS (96.45.45.45 / 96.45.46.46) roto en FortiOS 7.4.10, 7.4.11, 7.4.12 https://community.fortinet.com/fortigate-3/troubleshooting-tip-dns-unreachable-when-configured-with-dns-over-tls-on-fortigate-after-upgarde-to-v7-4-10-223784 Workaround Importar como CA https://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
+Nuevo bundle SDWAN (profundizar)
+
+Auto Firmware Upgrade:
+https://docs.fortinet.com/document/fortigate/7.6.4/administration-guide/369092/enabling-automatic-firmware-upgrades
+https://docs.fortinet.com/document/fortigate/7.6.4/administration-guide/320693/required-firmware-upgrades-for-fortigate-appliances-with-invalid-support-contracts-or-that-have-reached-eoes
+
+  - Equipos Sin licencia O En versión fin de soporte que alcancen fortiguard y versión superior a 7.4.8/7.6.4/8.0.0 - Se actualizan automáticamente al último patch (el último número)
+  - Nos manda un correo, genera un evento y tenemos la opción de postponer 14 días
+  - diagnose test application forticldd 13​ Es nuestro amigo.
+  - Deshabilitado si: FMG o Fabric
+
+Workaround 1: https://community.fortinet.com/t5/FortiGate/Technical-Tip-Auto-Firmware-Upgrade-feature-behavior-related-to/ta-p/360506
+
+Workaround 2:
+
+config system central-management 
+    set type fortimanager
+end
+
+  
+
+Auto Firmware Upgrade (por defecto) para entry level - https://docs.fortinet.com/document/fortigate/7.2.0/new-features/580180/enable-automatic-firmware-upgrades-by-default-on-entry-level-fortigates-7-2-6
+Split Brain cuando actualizamos con Private Data Encryption - Sumar al proceso de upgrade la verificación de la variable:
+https://community.fortinet.com/fortigate-3/troubleshooting-tip-failed-upgrade-to-7-6-6-on-ha-cluster-when-private-data-encryption-is-enabled-and-ha-password-is-set-227844
+ 
+(Con FMG) Pérdida parcial de configuración de interfaces tras upgrade a FortiOS 7.6.4 https://community.fortinet.com/fortigate-3/troubleshooting-tip-partial-interface-configuration-loss-after-upgrading-fortigate-to-fortios-7-6-4-227678
+Estamos en Mythos y hemos hecho público nuestro partnership con NVIDIA https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-deepens-integration-to-uniquely-secure-enterprise-ai-at-scale-with-nvidia
+7.6.6 como versión recomendada para varios modelos https://community.fortinet.com/fortigate-3/technical-tip-recommended-release-for-fortios-116639
+También para FMG y FAZ https://community.fortinet.com/fortimanager-27/technical-tip-recommended-release-for-fortimanager-and-fortianalyzer-119379
+P2Pinfect (análisis) https://www.fortinet.com/blog/threat-research/misconfigured-enrolled-and-dormant-anatomy-of-a-p2pinfect-kubernetes-compromise
+
 Debido a la renovación de certificados de los servidores FortiGuard Anycast que tendrá lugar el 14 de Abril, será necesario actualizar las versiones de FortiClient y FortiClient EMS a las versiones indicadas en los Customer Support Bulletins CSB-260303-1 y CSB-260320-1.
 Version 7.4.10, 7.6.5, 8.0.0, allow-traffic-redirect esta disabled por defecto  https://community.fortinet.com/fortigate-3/technical-tip-how-icmp-redirect-works-in-fortigate-168404
 Lanzamiento FortiOS 8.0 https://docs.fortinet.com/product/fortigate/8.0
